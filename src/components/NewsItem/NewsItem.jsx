@@ -2,6 +2,7 @@ import { formatTimeAgo } from '../../helpers/formatTimeAgo';
 import styles from './styles.module.css';
 
 const NewsItem = ({ item }) => {
+    // console.log(item.image)
 
     return (
         <li className={styles.item}>
